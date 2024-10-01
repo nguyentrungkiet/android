@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nội dung dài mà bạn muốn cuộn -->
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nội dung chính"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum non libero ut scelerisque. Suspendisse posuere, eros ut efficitur luctus, orci mi hendrerit risus, sed hendrerit lorem augue ac augue."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vivamus tristique elit id magna accumsan, nec vulputate dolor tempus. Ut rhoncus dui nec enim laoreet ultricies. Maecenas interdum vehicula bibendum. Sed at leo sed nisl aliquet eleifend nec non nisi."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In hac habitasse platea dictumst. Curabitur sodales eros non pharetra tempor. Phasellus non turpis vel felis pretium elementum."
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Thêm nhiều nội dung khác -->
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
